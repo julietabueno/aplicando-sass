@@ -1,0 +1,13 @@
+$font: Verdana;
+$size: large;
+
+section{
+    background-color: lightgreen;
+    p{
+        font-family: $font;
+        font-size: $size;
+        &:hover{
+            color: blue;
+        }
+    }
+}
