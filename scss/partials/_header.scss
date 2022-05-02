@@ -1,13 +1,16 @@
-$color: red;
+$color: aqua;
 
 header{
-    background-color: $color ;
-        nav{
-            text-align: center;
-                a{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                &:hover{
-                    color: white;
+    background-color: $color;
+    .primer-ancla{
+        color: black;
+    }
+    nav{
+        text-align: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &:hover{
+                color: blueviolet;
             }
         }
     }
